@@ -779,39 +779,98 @@ body {
   }
 }
 
-/* Темная тема для тех,кто любит тьму */
+/*Темная надо доработать */
 @media (prefers-color-scheme: dark) {
   body {
-    background: #1a1a2e;
-    color: #e0e0ff;
+    background: #0f172a;
+    color: #e2e8f0;
   }
-  .app {
-    background: #1a1a2e;
+
+  .header {
+    background: #1e293b;
   }
-  .experience-card,
-  .accordion-container,
-  .modal {
-    background: #2d2d4d;
-    border-color: #3d3d6d;
+  .logo {
+    background: #3b82f6;
+    color: white;
   }
-  .hero-name,
-  .section-title h2,
-  .accordion-header h4 {
-    color: #e6f2ff;
+  .nav a {
+    color: #cbd5e1;
   }
-  .hero-description,
-  .job-short,
-  .accordion-details p {
-    color: #ccccff;
+  .nav a:hover {
+    background: #334155;
+    color: #60a5fa;
   }
-  .detail-item {
-    background: #2d2d4d;
-    border-color: #66b3ff;
+
+  .hero-container {
+    background: #1e293b;
+    border: 1px solid #334155;
   }
-  .detail-label {
-    color: #aaaaff;
+  .hero-name { color: white; }
+  .hero-position { color: #60a5fa; }
+  .hero-description { color: #cbd5e1; }
+  .hero-details { background: #0f172a; }
+  .detail-item { background: #1e293b; }
+  .detail-label { color: #93c5fd; }
+  .detail-value { color: white; }
+
+  .section-title h2 { color: #60a5fa; }
+  .section-title p { color: #94a3b8; }
+  .experience-card {
+    background: #1e293b;
+    border: 1px solid #334155;
   }
-  .detail-value {
-    color: #ffffff;
+  .experience-card:hover {
+    background: #334155;
+    border-color: #3b82f6;
+  }
+  .company-name { color: white; }
+  .work-period { background: #334155; color: #94a3b8; }
+  .job-title { color: #93c5fd; }
+  .job-short { color: #cbd5e1; }
+  .tool-tag { background: #334155; color: #93c5fd; }
+  .details-btn {
+    background: transparent;
+    color: #60a5fa;
+    border: 2px solid #60a5fa;
+  }
+  .details-btn:hover {
+    background: rgba(96, 165, 250, 0.1);
+  }
+
+  .accordion-container { background: #1e293b; }
+  .accordion-section h3 { color: #60a5fa; }
+  .accordion-item { background: #0f172a; }
+  .accordion-header {
+    background: #1e293b;
+  }
+  .accordion-header h4 { color: #93c5fd; }
+  .accordion-icon { color: #60a5fa; }
+  .accordion-content { background: #0f172a; }
+  .accordion-details p { color: #60a5fa; }
+
+  .contacts-strip { background: #1e293b; }
+  .contact-item {
+    background: #0f172a;
+    color: #cbd5e1;
+  }
+  .contact-item:hover { background: #334155; }
+  .contact-icon { color: #60a5fa; }
+  .contact-type { color: #93c5fd; }
+  .contact-value { color: white; }
+
+  .footer { background: #1e293b; }
+  .footer-content p { color: #94a3b8; }
+
+  .modal-overlay { background: rgba(15, 23, 42, 0.95); }
+  .modal { background: #1e293b; }
+  .modal-header h3 { color: white; }
+  .modal-description p { color: #cbd5e1; }
+  .modal-button {
+    background: transparent;
+    color: #60a5fa;
+    border: 2px solid #60a5fa;
+  }
+  .modal-button:hover {
+    background: rgba(96, 165, 250, 0.1);
   }
 }
